@@ -3,6 +3,6 @@ class Puppy
   attr_reader :breed, :age
 
   def initialize(name, breed, age)
-
+    binding.pry
   end
 end
